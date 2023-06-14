@@ -1,0 +1,79 @@
+  @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("pics/blue.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Mr Dafoe', cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #countdown-row {
+    flex: 1;
+  }
+  
+  #controls-row {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    letter-spacing: 22 rem;
+    color: #fff;
+    padding: 20px;
+  }
+  #countdown{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2.5rem;
+  
+  }
+  #controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #datetimeInput {
+    width: 220px;
+  }
+  
+  #startButton,
+  #resetButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #startButton:hover,
+  #resetButton:hover {
+    background-color: #555;
+  }
+  
+
+      
